@@ -16,9 +16,11 @@
 
 }
 .calculater{
-       background-color: #3a4452;
+       /* background-color: #3a4452; */
+       background-color: black;
        padding: 20px;
        border-radius: 10px;
+     
 }
 
 .calculater form input{
@@ -27,12 +29,13 @@
        width: 60px;
        height: 60px;
        border-radius:10px;
-       box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(0, 0, 0, 0.2);
+       box-shadow: -8px -8px 15px rgba(255, 255, 255, 0.1),5px 5px 15px rgba(255, 255, 255, 0.1);
        background: transparent;
-       font-size: 20px;
+       font-size: 30px;
        color: #fff;
        cursor:pointer;
        margin: 10px;
+       
 
 
 
@@ -61,6 +64,23 @@ form .display input{
 
 form input.equal{
        width: 145px;
+       color: white;
+      background-color: #009006;
+       font-size: 45px;
+       
+
 
 
 }
+form input.equal:hover{
+       background-color: #35FF2F;
+}
+
+
+form input.operator{
+       color: #35FF2F;
+}
+
+form input:hover {
+       background-color: #909090;
+   }
