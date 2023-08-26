@@ -81,6 +81,10 @@ form input.operator{
        color: #35FF2F;
 }
 
+.operator{
+       color: #35FF2F;
+}
+
 form input:hover {
        background-color: #909090;
    }
