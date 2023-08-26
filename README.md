@@ -1,2 +1,2 @@
 # Calculater
-Calculater using javascript
+Calculater using html and css .
